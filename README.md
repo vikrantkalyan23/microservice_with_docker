@@ -14,15 +14,15 @@ docker run -d -p 3000:3000 --name microservice_with_docker microservice_with_doc
 
 # API Endpoint
 
-http://localhost:3000/user/<github-username>
+http://localhost:3000/user/github-username
 
 # Tag the image for Docker Hub
 
-docker tag microservice_with_docker <your-dockerhub-username>/microservice_with_docker:latest
+docker tag microservice_with_docker your-dockerhub-username/microservice_with_docker:latest
 
 # Push the image
 
-docker push <your-dockerhub-username>/microservice_with_docker:latest
+docker push your-dockerhub-username/microservice_with_docker:latest
 
 # Docker Hub repository URL
 
